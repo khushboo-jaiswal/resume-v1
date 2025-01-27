@@ -1,6 +1,9 @@
+Based on the resume you provided, here is the updated YML file:
+
+```yaml
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: Your repository (e.g., sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (e.g., images/favicon.ico) (optional)
 
 # Content configuration version
 version: 2
@@ -10,7 +13,7 @@ name: Khushboo Jaiswal
 title: Pension Administration & Customer Resolution Specialist | Expert in Policy Management, Complex Issue Resolution, and Process Optimization
 email: khushboosjaiswal08@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: +44 7867068624
 # phone_title: Phone (Phone title override)
 website: https://www.linkedin.com/in/khushboo-jaiswal1/
 # website_title: Web (Website title override)
@@ -20,78 +23,90 @@ darkmode: false
 
 # Social links
 twitter_username: khushboosjaiswal
-github_username:  khushboo-jaiswal
+github_username: khushboo-jaiswal
 linkedin_username: khushboo-jaiswal1
 
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/khushboo-jaiswal.jpg
-about_content: | # this will include new lines to allow paragraphs
- I am a dedicated and results-driven professional with a unique combination of experience in both customer resolution and pension administration. With a strong background in handling complex issues and providing timely solutions, I am passionate about ensuring customer satisfaction and operational efficiency.
+about_content: | 
+  I am a dedicated and results-driven professional with a unique combination of experience in both customer resolution and pension administration. With a strong background in handling complex issues and providing timely solutions, I am passionate about ensuring customer satisfaction and operational efficiency.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  Currently, as a General Administrator at People's Partnership, I manage pension-related tasks, ensuring regulatory compliance, maintaining accurate records, and driving process enhancements. During my tenure at Amazon as a Resolution Specialist, I developed strong skills in managing high-pressure customer interactions and delivering exceptional service tailored to individual needs.
+
+  Holding an MBA from Savitribai Phule Pune University and a bachelor’s degree from Bangalore University, I bring a strong academic foundation to my professional roles. My key strengths include exceptional communication, problem-solving abilities, and a commitment to continuous learning and improvement.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
+        title: People's Partnership
+        sub_title: General Administrator
+        caption: August 2024 – Present (6 months)
         link: Link to company (optional)
         quote: >
           Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+        description: | 
+          Performed general administrative duties to support the efficient management of pension schemes and policies.
+          Handled pension-related tasks, ensuring accuracy and compliance with regulatory standards.
+          Managed and maintained multiple policies, providing administrative support to ensure smooth operations.
+          Responded to queries from stakeholders, ensuring timely and effective communication.
+          Contributed to maintaining the integrity of pension records and assisting in process improvements.
+
+      - layout: right
+        title: Amazon
+        sub_title: Resolution Specialist
+        caption: November 2016 – September 2022 (5 years 11 months)
+        link: Link to company (optional)
+        quote: >
+          Short description of the company (optional)
+        description: | 
+          Managed and resolved complex customer issues efficiently and effectively.
+          Responded to customer inquiries via phone, email, and chat, ensuring high-quality service delivery.
+          Identified and escalated issues requiring further attention, working collaboratively with cross-functional teams.
+          Provided feedback to improve internal processes and procedures, driving operational efficiency.
+          Consistently met or exceeded customer satisfaction goals through proactive issue resolution.
+
+      - layout: right
+        title: Amazon
+        sub_title: Customer Service Associate
+        caption: May 2016 – November 2016 (7 months)
+        link: Link to company (optional)
+        quote: >
+          Short description of the company (optional)
+        description: | 
+          Delivered excellent customer service across various communication channels, including phone, email, and chat.
+          Handled inquiries, complaints, and issues in a professional and friendly manner, ensuring positive customer experiences.
+          Maintained accurate customer records while adhering to company policies and data protection standards.
+          Collaborated with team members to ensure timely resolution of customer concerns.
+
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: Savitribai Phule Pune University
+        sub_title: Master of Business Administration (MBA)
+        caption: August 2013 – April 2015
         quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
+          Business Administration and Management, General
+        description: | 
           Description of qualification
+
+      - layout: top-right
+        title: Bangalore University
+        sub_title: Bachelor of Business Management
+        caption: July 2010 – April 2013
+        quote: >
+          Business Administration, Management, and Operations
+        description: | 
+          Description of qualification
+
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
+    content: | 
       This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
@@ -101,7 +116,7 @@ footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# theme: modern-resume-theme (Use this if you are hosting your resume yourself)
 # remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
@@ -111,7 +126,7 @@ sass:
 plugins:
  - jekyll-seo-tag
 
-exclude : [
+exclude: [
   "Gemfile",
   "Gemfile.lock",
   "node_modules",
@@ -122,4 +137,7 @@ exclude : [
   "lib/",
   "scripts/",
   "docker-compose.yml",
-  ]
+]
+```
+
+Feel free to adjust any details as needed! If you have any more updates or need further assistance, just let me know.
