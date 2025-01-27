@@ -1,6 +1,3 @@
-Based on the resume you provided, here is the updated YML file:
-
-```yaml
 # Site
 repository: Your repository (e.g., sproogen/modern-resume-theme)
 # favicon: Directory of your favicon (e.g., images/favicon.ico) (optional)
@@ -138,6 +135,3 @@ exclude: [
   "scripts/",
   "docker-compose.yml",
 ]
-```
-
-Feel free to adjust any details as needed! If you have any more updates or need further assistance, just let me know.
