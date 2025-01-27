@@ -9,11 +9,7 @@ version: 2
 name: Khushboo Jaiswal
 title: General Administration & Customer Resolution Specialist | Expert in Policy Management, Complex Issue Resolution, and Process Optimization
 email: khushboosjaiswal08@gmail.com
-# email_title: Email (Email title override)
-phone: +44 7867068624
-# phone_title: Phone (Phone title override)
-website: https://www.linkedin.com/in/khushboo-jaiswal1/
-# website_title: Web (Website title override)
+
 
 # Dark Mode (true/false/never)
 darkmode: false
