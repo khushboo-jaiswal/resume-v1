@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Khushboo Jaiswal
-title: Pension Administration & Customer Resolution Specialist | Expert in Policy Management, Complex Issue Resolution, and Process Optimization
+title: General Administration & Customer Resolution Specialist | Expert in Policy Management, Complex Issue Resolution, and Process Optimization
 email: khushboosjaiswal08@gmail.com
 # email_title: Email (Email title override)
 phone: +44 7867068624
@@ -43,9 +43,7 @@ content:
         title: People's Partnership
         sub_title: General Administrator
         caption: August 2024 – Present (6 months)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
+        link: https://peoplespartnership.co.uk/
         description: | 
           Performed general administrative duties to support the efficient management of pension schemes and policies.
           Handled pension-related tasks, ensuring accuracy and compliance with regulatory standards.
@@ -57,9 +55,7 @@ content:
         title: Amazon
         sub_title: Resolution Specialist
         caption: November 2016 – September 2022 (5 years 11 months)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
+        link: https://www.amazon.com/
         description: | 
           Managed and resolved complex customer issues efficiently and effectively.
           Responded to customer inquiries via phone, email, and chat, ensuring high-quality service delivery.
@@ -71,9 +67,7 @@ content:
         title: Amazon
         sub_title: Customer Service Associate
         caption: May 2016 – November 2016 (7 months)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
+        link: https://www.amazon.com/
         description: | 
           Delivered excellent customer service across various communication channels, including phone, email, and chat.
           Handled inquiries, complaints, and issues in a professional and friendly manner, ensuring positive customer experiences.
@@ -90,7 +84,8 @@ content:
         quote: >
           Business Administration and Management, General
         description: | 
-          Description of qualification
+        Business Club: I was a member of the Business Club at my university, where I had the opportunity to network with professionals in the industry and learn from guest speakers. I also participated in several case competitions, where I was able to apply the concepts I learned in the classroom to real-world business scenarios.
+
 
       - layout: top-right
         title: Bangalore University
@@ -99,18 +94,28 @@ content:
         quote: >
           Business Administration, Management, and Operations
         description: | 
-          Description of qualification
+          - Industrial visits.
+          - Participate on many cultural events.
+          - Business workshops, projects presentation.
+          - Internship & Participate in business fests /Quiz
 
-  - title: A Little More About Me
+ - title: A Little More About Me
     layout: text
     content: | 
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      **Interests:**
+      - Traveling: I love exploring new places and experiencing different cultures.
+      - Reading: I enjoy reading books on personal development and business management.
+      - Cooking: Experimenting with new recipes and cooking for friends and family is a favorite pastime.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      **Skills:**
+      - Leadership: Proven ability to lead teams and manage projects effectively.
+      - Teamwork: Strong collaborator with a focus on achieving common goals.
+      - Communication: Excellent verbal and written communication skills.
+      - Problem-Solving: Adept at identifying issues and implementing effective solutions.
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+# references_title: General Administration & Customer Resolution Specialist
 
 # Build settings
 # theme: modern-resume-theme (Use this if you are hosting your resume yourself)
